@@ -1,0 +1,85 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 30px;
+}
+
+/* Header */
+#header {
+  color: hsl(272, 67%, 19%);
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+input {
+  padding: 12px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Color select */
+select {
+  padding: 12px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Note card */
+.notecard {
+  padding: 20px;
+  margin: 15px 5px;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Note title */
+.notecard h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+/* Note content */
+.notecard p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* Note colors */
+.yellow {
+  background-color: #e8e85a;
+}
+
+.blue {
+  background-color: #add8e6;
+}
+
+.green {
+  background-color: #73d973;
+}
+
+.red {
+  background-color: rgb(216, 94, 94);
+}
